@@ -1,0 +1,12 @@
+<div [formGroup]="form">
+
+<!-- checkbox -->
+<mat-checkbox color="primary" formControlName="downloadsAllowed">
+    Downloads Allowed?
+</mat-checkbox>	
+
+<div> 
+  {{ form.value | json }}
+</div>
+
+</div>
